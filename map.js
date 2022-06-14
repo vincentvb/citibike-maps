@@ -6,7 +6,6 @@ var map = new mapboxgl.Map({
   maxZoom: 14,
   minZoom: 10.5,
   center: [-73.82, 40.756],
-  maxBounds: [[-74.9, 40.9], [-73.3, 40.6]]
 });
 
 map.on("load", function () {
